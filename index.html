@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="flex flex-col min-h-screen">
+      <!-- Navbar -->
+      <nav class="flex justify-between items-center bg-gray-900 text-white p-4 shadow-md">
+        <div class="flex items-center space-x-2 text-xl font-bold">
+          <span class="text-white">rey</span>
+          <span class="text-red-500">rizky a</span>
+        </div>
+        <ul class="flex items-center space-x-4">
+          <li><a href="#home" class="hover:text-teal-400">HOME</a></li>
+          <li><a href="#about" class="hover:text-teal-400">ABOUT</a></li>
+          <li><a href="#contact" class="text-red-500">OTHER</a></li>
+          <li><img src="tes.gif" alt="..." class="w-12 h-12 rounded-full" /></li>
+        </ul>
+      </nav>
+
+      <!-- Home Section -->
+      <section id="home" class="flex flex-col md:flex-row items-center bg-white p-8 md:h-screen">
+        <img src="gambar3.jpg" alt="foto profil" class="w-64 h-80 rounded-lg shadow-lg mx-auto mb-6 md:mb-0" />
+        <div class="text-center md:text-left md:ml-8">
+          <h6 class="text-lg text-gray-700">Halo Semuanya, perkenalkan saya</h6>
+          <h1 class="text-4xl font-bold text-gray-900">Rey Rizky Andifa</h1>
+          <h3 class="text-2xl text-gray-800 mt-2">F55123079</h3>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="flex flex-col md:flex-row items-center bg-gray-50 p-8 md:h-screen">
+        <img src="gambar4.jpg" alt="" class="w-96 h-96 rounded-lg shadow-lg mx-auto mb-6 md:mb-0" />
+        <div class="md:ml-8 text-center md:text-left">
+          <h2 class="text-lg text-teal-600">Lebih banyak tentang saya</h2>
+          <h1 class="text-4xl font-bold text-gray-900">ABOUT ME</h1>
+          <p class="text-lg text-gray-700 mt-4">
+            Sedikit tentang diri saya, saya berasal dari Provinsi Sulawesi Tengah tepatnya di Kota Palu. Saya lulus dari SMA Al Azhar Mandiri Palu pada tahun 2023. Sekarang saya sedang berkuliah di semester 3 di Universitas Tadulako jurusan Teknologi Informasi.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="contact" class="text-center bg-white py-16">
+        <h2 class="text-teal-600 text-lg">Get To Know More</h2>
+        <h1 class="text-4xl font-bold text-gray-900">Project & Skill</h1>
+
+        <div class="mt-8 flex flex-wrap justify-center gap-6">
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md w-80">
+            <p class="font-bold">Project Web 1</p>
+            <p>Membuat Web Berita Sederhana</p>
+            <img src="gambar5.png" alt="Project Web 1" class="w-full h-40 rounded-lg mt-2" />
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md w-80">
+            <p class="font-bold">Project Web 2</p>
+            <p>Membuat Website Portofolio Sederhana</p>
+            <img src="gambar6.png" alt="Project Web 2" class="w-full h-40 rounded-lg mt-2" />
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md w-80">
+            <p class="font-bold">Gaming</p>
+            <p>Boleh lah sedikit sedikit</p>
+            <img src="game1.jpg" alt="Gaming" class="w-full h-40 rounded-lg mt-2" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Hobby Section -->
+      <section id="tambahan" class="bg-gray-50 py-16">
+        <h2 class="text-center text-4xl font-bold text-gray-900 mb-8">My Hobby</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+          <div class="text-center">
+            <img src="lari.jpg" alt="Lari" class="w-48 h-64 mx-auto rounded-lg shadow-md" />
+            <h4 class="mt-4 text-lg font-bold">Lari tipis-tipis</h4>
+          </div>
+          <div class="text-center">
+            <img src="badminton.jpg" alt="Badminton" class="w-48 h-64 mx-auto rounded-lg shadow-md" />
+            <h4 class="mt-4 text-lg font-bold">Bermain Bulu Tangkis</h4>
+          </div>
+          <div class="text-center">
+            <img src="ukulele.jpg" alt="Ukulele" class="w-48 h-64 mx-auto rounded-lg shadow-md" />
+            <h4 class="mt-4 text-lg font-bold">Bermain Alat Musik</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-teal-500 text-white py-8">
+        <div class="text-center">
+          <h2 class="text-2xl font-bold">Contact Me</h2>
+          <p class="mt-2">You can reach me through WhatsApp or follow me on Instagram!</p>
+          <div class="mt-4 space-x-4">
+            <a
+              href="https://wa.me/+6282261868576"
+              target="_blank"
+              class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+              >WhatsApp</a
+            >
+            <a
+              href="https://instagram.com/reyrizky_"
+              target="_blank"
+              class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
